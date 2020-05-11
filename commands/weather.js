@@ -3,7 +3,7 @@ const {MessageEmbed} = require('discord.js')
 module.exports.run = async(bot,message,args) => {
 
 
-  let apikey = '0bef22e3a7d648fe4618d2b5556b9be4'
+  let apikey = 'your api here'
   if(!args[0]) return
   if(args[1]) {
     let city = args[0] +  "+" + args[1];
