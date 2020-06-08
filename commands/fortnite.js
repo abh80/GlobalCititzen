@@ -1,5 +1,5 @@
 const fortnite = require('simple-fortnite-api');
-const client = new fortnite('570ec982-031e-4685-913a-e45be9485ccf');
+const client = new fortnite('TRN-api-key');
 const { MessageEmbed } = require('discord.js');
 const { stripIndents } = require("common-tags");
 
